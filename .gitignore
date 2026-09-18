@@ -7,4 +7,10 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 /.env.dev
+<<<<<<< HEAD
 /.env
+=======
+/allure-history
+/allure-report
+/allure-results
+>>>>>>> 50562781d920bad49086bb8f522af6120266fedb

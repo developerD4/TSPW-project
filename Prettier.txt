@@ -1,0 +1,34 @@
+Before Prettier
+const user={name:"Dharani",age:25,email:"dharani@gmail.com"}
+
+function login(username:string,password:string){
+console.log("Username:",username)
+console.log("Password:",password)
+}
+
+This code can work, but the formatting is difficult to read.
+
+After Prettier
+const user = {
+  name: 'Dharani',
+  age: 25,
+  email: 'dharani@gmail.com',
+};
+
+function login(username: string, password: string) {
+  console.log('Username:', username);
+  console.log('Password:', password);
+}
+What did Prettier change?
+Before                         After
+------------------------------------------------
+user={...}                  →  user = {...}
+"name"                       →  'name' (if configured)
+No indentation               →  Proper indentation
+No spaces                    →  Proper spaces
+One-line object              →  Multi-line object
+Missing semicolons           →  Semicolons
+
+The logic is still the same.
+
+Git hooks for pre-commit linting and formatting are optional. They automatically check and format the code before a Git commit. Prettier does not change what the code does. It changes how the code looks, making it consistent and easier to read.

@@ -1,29 +1,29 @@
 name: Playwright Tests
 
-on:
+on: #Defines when the workflow should run.
   push:
     branches: [main]
   pull_request:
     branches: [main]
 
-jobs:
+jobs: #Defines the work GitHub Actions needs to perform.
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest #Run the job on a GitHub-provided Ubuntu machine.
 
-    steps:
+    steps: #List of actions/commands to execute.
       - name: Get code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v6 #Downloads/checks out your GitHub project code.
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v6 #Installs/configures Node.js.
         with:
-          node-version: lts/*
+          node-version: lts/* #Uses the latest LTS version of Node.js. LTS - Long Term Support
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci #Installs the packages listed in package-lock.json.
 
       - name: Install Playwright
-        run: npx playwright install --with-deps
+        run: npx playwright install --with-deps #Installs Playwright browsers and required system dependencies.
 
       - name: Run Playwright tests
         run: npx playwright test

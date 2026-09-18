@@ -1,0 +1,2 @@
+https://demo.playwright.dev/todomvc/js/director.js
+https://demo.playwright.dev/todomvc/js/bundle.js

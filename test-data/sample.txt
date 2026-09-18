@@ -1,0 +1,22 @@
+base url, retries, reporter
+`timeout` defines the maximum time allowed for one test. Playwright uses **milliseconds**.
+
+```typescript
+timeout: 30 * 1000,
+Formula: Seconds × 1000 = Milliseconds
+Examples: `30 * 1000` = 30 seconds, `60 * 1000` = 60 seconds, `2 * 60 * 1000` = 2 minutes.
+
+**Meaning:** Timeout = **How long can one test run?**
+
+## 3. Retries
+
+`retries` defines how many times Playwright retries a failed test.
+
+```typescripta
+retries: 1,
+```
+
+If the test fails, Playwright runs it one more time.
+
+**Meaning:** Retries = **How many times should a failed test be retried?**
+

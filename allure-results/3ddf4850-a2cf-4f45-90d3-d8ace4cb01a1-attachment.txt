@@ -1,0 +1,21 @@
+{
+  responseCode: 200,
+  user: {
+    id: 2828732,
+    name: 'Original Name',
+    email: 'qa.chain2.1789613075983@example.com',
+    title: 'Mr',
+    birth_day: '1',
+    birth_month: '1',
+    birth_year: '1990',
+    first_name: 'Original',
+    last_name: 'Name',
+    company: 'Example Co',
+    address1: '123 Main St',
+    address2: '',
+    country: 'United States',
+    state: 'NY',
+    city: 'New York',
+    zipcode: '10001'
+  }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Automation Testing Form</title>
+</head>
+
+<body>
+
+    ```
+    <h1>Registration Form</h1>
+
+    <form id="registrationForm" name="registrationForm">
+
+        <!-- Text Input -->
+        <p>
+            <label for="username">Username:</label>
+
+            <input type="text" id="username" name="username" placeholder="Enter username" required
+                data-testid="username">
+        </p>
+
+
+        <!-- Password -->
+        <p>
+            <label for="password">Password:</label>
+
+            <input type="password" id="password" name="password" placeholder="Enter password" required
+                data-testid="password">
+        </p>
+
+
+        <!-- Email -->
+        <p>
+            <label for="email">Email:</label>
+
+            <input type="email" id="email" name="email" placeholder="Enter email" required data-testid="email">
+        </p>
+
+
+        <!-- Radio Buttons -->
+        <p>
+            <strong>Gender:</strong>
+        </p>
+
+        <input type="radio" id="male" name="gender" value="male" data-testid="male">
+
+        <label for="male">Male</label>
+
+
+        <input type="radio" id="female" name="gender" value="female" data-testid="female">
+
+        <label for="female">Female</label>
+
+
+        <input type="radio" id="other" name="gender" value="other" data-testid="other">
+
+        <label for="other">Other</label>
+
+
+        <!-- Checkbox -->
+        <p>
+            <input type="checkbox" id="terms" name="terms" required data-testid="terms">
+
+            <label for="terms">
+                I accept the terms and conditions
+            </label>
+        </p>
+
+
+        <!-- Dropdown -->
+        <p>
+            <label for="browser">Preferred Browser:</label>
+
+            <select id="browser" name="browser" data-testid="browser" required>
+
+                <option value="">Select Browser</option>
+                <option value="chrome">Chrome</option>
+                <option value="firefox">Firefox</option>
+                <option value="webkit">WebKit</option>
+
+            </select>
+        </p>
+
+
+        <!-- Date -->
+        <p>
+            <label for="dob">Date of Birth:</label>
+
+            <input type="date" id="dob" name="dob" data-testid="dob">
+        </p>
+
+
+        <!-- Textarea -->
+        <p>
+            <label for="comments">Comments:</label>
+        </p>
+
+        <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Enter your comments"
+            data-testid="comments"></textarea>
+
+
+        <!-- File Upload -->
+        <p>
+            <label for="resume">Upload Resume:</label>
+
+            <input type="file" id="resume" name="resume" data-testid="resume">
+        </p>
+
+
+        <!-- Submit Button -->
+        <p>
+            <button type="submit" id="submitButton" name="submit" data-testid="submit-button">
+                Submit
+            </button>
+
+
+            <!-- Reset Button -->
+
+            <button type="reset" id="resetButton" name="reset" data-testid="reset-button">
+                Reset
+            </button>
+        </p>
+
+    </form>
+    ```
+
+</body>
+
+</html>

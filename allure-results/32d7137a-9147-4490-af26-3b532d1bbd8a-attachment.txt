@@ -1,0 +1,19 @@
+APIResponse: 200 OK
+  Date: Thu, 17 Sep 2026 05:22:16 GMT
+  Content-Type: text/html; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  vary: Accept,Cookie,Accept-Encoding
+  referrer-policy: same-origin
+  x-frame-options: DENY
+  x-content-type-options: nosniff
+  allow: PUT, GET, DELETE, POST, OPTIONS
+  x-powered-by: Phusion Passenger(R) 6.1.8
+  status: 200 OK
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  Server: cloudflare
+  cf-cache-status: DYNAMIC
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=sYtJvm8ZpFzdnTt6pkLPD92JPxwt7QNffjYJ2s3ZjE0TB6cZVkYeP0YoXna91%2F6yGKPcRy5FqXAZ1vMuBh%2FpQS7s%2B9C0mW7Gn%2BtdTmZBuA3ou6gC5GexoZrsaPUI0t7gtC427WRv0HcwGi2Jw47DcYLVewpR"}]}
+  Content-Encoding: br
+  CF-RAY: a3c5ac0d6bae472e-SIN
+  alt-svc: h3=":443"; ma=86400

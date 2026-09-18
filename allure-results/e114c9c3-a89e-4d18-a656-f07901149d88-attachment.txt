@@ -1,0 +1,10 @@
+URL: https://demo.playwright.dev/todomvc
+Method: GET
+URL: https://demo.playwright.dev/todomvc/base.css
+Method: GET
+URL: https://demo.playwright.dev/todomvc/index.css
+Method: GET
+URL: https://demo.playwright.dev/todomvc/js/director.js
+Method: GET
+URL: https://demo.playwright.dev/todomvc/js/bundle.js
+Method: GET

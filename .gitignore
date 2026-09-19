@@ -8,6 +8,10 @@ node_modules/
 /playwright/.auth/
 /.env.dev
 /.env
-/allure-history
-/allure-report
-/allure-results
+/downloads/
+/screenshots/
+/heading.png
+/todo.pdf
+/allure-history/
+/allure-report/
+/allure-results/

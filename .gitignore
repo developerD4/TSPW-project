@@ -8,7 +8,6 @@ node_modules/
 /playwright/.auth/
 /.env.dev
 /.env
-=======
 /allure-history
 /allure-report
 /allure-results

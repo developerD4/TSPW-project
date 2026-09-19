@@ -9,6 +9,13 @@ test('Press a keyboard key', async ({ page }) => {
   await page.getByRole('button', { name: 'Login' }).click();
   // Verify login
   await expect(page).toHaveURL(/dashboard/);
+  await expect(page.getByRole('heading', { name: 'Dashboard' })).toBeVisible();
+
+  // Navigate to Admin
+  await page.getByText('Admin', { exact: true }).click();
+
+  // Verify Admin page
+  await expect(page.getByRole('heading', { name: 'Admin' })).toBeVisible();
 });
 // -------------------- DOUBLE CLICK --------------------
 

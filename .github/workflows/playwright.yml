@@ -5,7 +5,9 @@ on: #Defines when the workflow should run.
     branches: [main]
   pull_request:
     branches: [main]
+# YAML is a simple configuration file format used to give instructions/settings to tools.
 
+# YAML = YAML Ain't Markup Language
 jobs: #Defines the work GitHub Actions needs to perform.
   test:
     runs-on: ubuntu-latest #Run the job on a GitHub-provided Ubuntu machine.
